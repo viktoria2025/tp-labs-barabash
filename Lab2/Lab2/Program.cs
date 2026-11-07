@@ -61,7 +61,7 @@ namespace Lab2
         public override decimal CalculatePrice() => BasePrice;
     }
 
-    // класс vip билета (цена умножается на 2)
+    // класс vip билета 
     public class VipTicket : Ticket
     {
         public VipTicket(string movieName, decimal basePrice, int row, int seat)
@@ -76,7 +76,7 @@ namespace Lab2
         }
     }
 
-    // класс льготного билета (скидка 50 процентов)
+    // класс льготного билета 
     public class DiscountTicket : Ticket
     {
         public DiscountTicket(string movieName, decimal basePrice, int row, int seat)
